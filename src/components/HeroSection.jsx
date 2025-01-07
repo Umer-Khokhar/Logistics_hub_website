@@ -12,7 +12,6 @@ const HeroSection = () => {
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-30"></div>
-
       {/* Text and content */}
       <div className="py-10 lg:pt-0 md:pl-20 pl-8 sm:w-11/12 w-full lg:w-2/3 flex flex-col gap-4 justify-start items-start text-white p-4 z-10">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 md:w-10/12">Reliable Truck Dispatching Services Across the USA</h1>

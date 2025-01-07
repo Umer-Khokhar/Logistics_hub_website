@@ -12,7 +12,7 @@ const Service = ({ category, bgColor, textColor, direction }) => {
         <p className="text-lg">{description}</p>
       </div>
       <div className={`flex justify-center gap-14 items-center flex-col w-full ${direction}`}>
-        <img className="lg:w-1/2 w-full object-cover" src={image} alt={`${title} image`} />
+        <img className="lg:w-1/2 w-full object-cover" src={image} alt={`${title} image`} loading="lazy"/>
         <div className="all-categories">
           <ul className="grid sm:grid-cols-2 gap-14">
             {items.map((item, index) => (
