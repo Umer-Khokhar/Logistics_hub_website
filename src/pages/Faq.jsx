@@ -4,7 +4,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { ChooseUs, ReuseHero } from "../components";
+import { ChooseUs, ReuseHero } from "../components/index.js";
  
 const  Faq = () => {
   const [open, setOpen] = React.useState(1);

@@ -1,5 +1,5 @@
 import React from "react";
-import { ReuseHero } from "../components";
+import { ReuseHero } from "../components/index.js";
 const Contact = () => {
   const heroTitle = ' Contact Logistics Hub for Premium Truck Dispatching Services'
   const heroDesc = 'Get in touch with us today for reliable freight dispatching services.'

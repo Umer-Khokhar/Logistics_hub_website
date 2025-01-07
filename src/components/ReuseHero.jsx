@@ -1,5 +1,5 @@
 import React from 'react'
-import { images } from "../constants";
+import { images } from "../constants/index.js";
 const ReuseHero = ({title, description}) => {
   return (
     <div className="map-hero mt-14 relative bg-mapColor bg-gradient-to-r from-mapColor to-gray-900 text-gray-100 h-[18rem] flex justify-center items-center">

@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "../constants";
+import { images } from "../constants/index.js";
 import ContactBtn from "./ContactBtn";
 
 const Service = ({ category, bgColor, textColor, direction }) => {

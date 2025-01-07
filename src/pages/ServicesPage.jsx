@@ -1,6 +1,6 @@
 import React from "react";
-import { ReuseHero, Service } from "../components";
-import { images } from "../constants";
+import { ReuseHero, Service } from "../components/index.js";
+import { images } from "../constants/index.js";
 const ServicesPage = () => {
   const categories = {
     dryVans: {

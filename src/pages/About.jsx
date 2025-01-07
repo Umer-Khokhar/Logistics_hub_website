@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "../constants";
+import { images } from "../constants/index.js";
 const AboutUs = () => {
   return (
     <div className="bg-gray-50 text-gray-800 mt-14">
