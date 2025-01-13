@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"
 import { images } from "../constants";
 
 import { LazyLoadBackground } from ".";
@@ -25,10 +26,15 @@ const ProportionsData = [
   },
 ];
 const Proportions = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/contact-us')
+  }
   return (
     <div className="proportion grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-8">
       {ProportionsData.map((ProData) => (
-        <div
+        <div onClick={() => handleNavigate()}
           key={ProData.title}
           className="relative mx-auto group lg:w-[28rem] md:h-[24rem] w-11/12 h-[20rem] bg-gray-200 cursor-pointer"
         >
